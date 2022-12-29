@@ -1,0 +1,38 @@
+INFO    2022-12-29 19:39:01,876 [main] testcases.OpenAccountTest  - Test Execution started!!!
+INFO    2022-12-29 19:39:01,878 [main] testcases.OpenAccountTest  - OR properties file loaded
+INFO    2022-12-29 19:39:06,412 [TestNG-tests-1] testcases.BankManagerLoginTest  - Launching Chrome browser
+INFO    2022-12-29 19:39:06,412 [TestNG-tests-2] testcases.AddCustomerTest  - Launching Chrome browser
+INFO    2022-12-29 19:39:06,412 [TestNG-tests-3] testcases.OpenAccountTest  - Launching Chrome browser
+INFO    2022-12-29 19:39:08,658 [TestNG-tests-3] testcases.OpenAccountTest  - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2022-12-29 19:39:08,729 [TestNG-tests-2] testcases.AddCustomerTest  - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2022-12-29 19:39:08,868 [TestNG-tests-1] testcases.BankManagerLoginTest  - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2022-12-29 19:39:09,096 [TestNG-tests-3] testcases.OpenAccountTest  - Clicking the Element: bank_manager_login_button
+INFO    2022-12-29 19:39:09,136 [TestNG-tests-2] testcases.AddCustomerTest  - Clicking the Element: bank_manager_login_button
+INFO    2022-12-29 19:39:09,365 [TestNG-tests-3] testcases.OpenAccountTest  - Clicking the Element: open_account_button
+INFO    2022-12-29 19:39:09,404 [TestNG-tests-1] testcases.BankManagerLoginTest  - Clicking the Element: bank_manager_login_button
+INFO    2022-12-29 19:39:09,451 [TestNG-tests-2] testcases.AddCustomerTest  - Clicking the Element: add_customer_button
+INFO    2022-12-29 19:39:09,574 [TestNG-tests-3] testcases.OpenAccountTest  - Selecting 'Hermoine Granger' in customer_name_drop-down
+INFO    2022-12-29 19:39:09,591 [TestNG-tests-3] testcases.OpenAccountTest  - Selecting 'Dollar' in currency_drop-down
+INFO    2022-12-29 19:39:09,615 [TestNG-tests-1] testcases.BankManagerLoginTest  - The element add_customer_button is visible
+INFO    2022-12-29 19:39:09,621 [TestNG-tests-1] testcases.BankManagerLoginTest  - The element open_account_button is visible
+INFO    2022-12-29 19:39:09,625 [TestNG-tests-1] testcases.BankManagerLoginTest  - The element customers_button is visible
+INFO    2022-12-29 19:39:09,873 [TestNG-tests-2] testcases.AddCustomerTest  - Typing 'Raman' in first_name_field
+INFO    2022-12-29 19:39:09,910 [TestNG-tests-2] testcases.AddCustomerTest  - Typing 'Arora' in last_name_field
+INFO    2022-12-29 19:39:09,941 [TestNG-tests-2] testcases.AddCustomerTest  - Typing 'A342' in post_code_field
+INFO    2022-12-29 19:39:13,931 [TestNG-tests-3] testcases.OpenAccountTest  - Clicking the Element: process_button
+INFO    2022-12-29 19:39:14,132 [TestNG-tests-2] testcases.AddCustomerTest  - Clicking the Element: submit_new_customer_button
+INFO    2022-12-29 19:39:15,052 [TestNG-tests-3] testcases.OpenAccountTest  - Launching Chrome browser
+INFO    2022-12-29 19:39:15,067 [TestNG-tests-2] testcases.AddCustomerTest  - Launching Chrome browser
+INFO    2022-12-29 19:39:16,657 [TestNG-tests-3] testcases.OpenAccountTest  - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2022-12-29 19:39:16,916 [TestNG-tests-2] testcases.AddCustomerTest  - Navigated to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2022-12-29 19:39:17,125 [TestNG-tests-3] testcases.OpenAccountTest  - Clicking the Element: bank_manager_login_button
+INFO    2022-12-29 19:39:17,354 [TestNG-tests-3] testcases.OpenAccountTest  - Clicking the Element: open_account_button
+INFO    2022-12-29 19:39:17,382 [TestNG-tests-2] testcases.AddCustomerTest  - Clicking the Element: bank_manager_login_button
+INFO    2022-12-29 19:39:17,613 [TestNG-tests-3] testcases.OpenAccountTest  - Selecting 'Harry Potter' in customer_name_drop-down
+INFO    2022-12-29 19:39:17,628 [TestNG-tests-3] testcases.OpenAccountTest  - Selecting 'Rupee' in currency_drop-down
+INFO    2022-12-29 19:39:17,696 [TestNG-tests-2] testcases.AddCustomerTest  - Clicking the Element: add_customer_button
+INFO    2022-12-29 19:39:17,925 [TestNG-tests-2] testcases.AddCustomerTest  - Typing 'Rahul' in first_name_field
+INFO    2022-12-29 19:39:17,948 [TestNG-tests-2] testcases.AddCustomerTest  - Typing 'Mathan' in last_name_field
+INFO    2022-12-29 19:39:17,968 [TestNG-tests-2] testcases.AddCustomerTest  - Typing 'D344' in post_code_field
+INFO    2022-12-29 19:39:21,868 [TestNG-tests-3] testcases.OpenAccountTest  - Clicking the Element: process_button
+INFO    2022-12-29 19:39:22,134 [TestNG-tests-2] testcases.AddCustomerTest  - Clicking the Element: submit_new_customer_button

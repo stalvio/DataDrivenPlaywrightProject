@@ -1,0 +1,12 @@
+testcases\OpenAccountTest.class
+util\Constants.class
+rough\LoginTest.class
+testcases\BankManagerLoginTest.class
+base\BaseTest.class
+listeners\ExtentManager.class
+util\DataProviders.class
+util\ExcelReader.class
+util\DataUtil.class
+testcases\AddCustomerTest.class
+listeners\ExtentListeners.class
+rough\UserRegistrationTest.class
