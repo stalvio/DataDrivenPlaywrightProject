@@ -103,10 +103,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 	String messageBody;
 	public void onFinish(ISuite suite) {
-
-
 		MonitoringMail mail = new MonitoringMail();
-
 
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()

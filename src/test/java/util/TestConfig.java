@@ -3,8 +3,8 @@ package util;
 public class TestConfig {
 
 	public static String server="smtp.gmail.com";
-	public static String from = "stalvio.net@gmail.com";
-	public static String password = "19ke84bc05jd25bx";
+	public static String from = "java@way2automation.com";
+	public static String password = "Selenium@123";
 	public static String[] to ={"stalvio.net@gmail.com"};
 	public static String subject = "Test Report";
 	

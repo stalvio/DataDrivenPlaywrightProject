@@ -5,14 +5,10 @@ import javax.mail.internet.*;
 import java.util.Properties;
 
 
-public class MonitoringMail
-{
+public class MonitoringMail {
 	
 	//public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody, String attachmentPath, String attachmentName) throws MessagingException, AddressException
-	
-	public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody) throws MessagingException, AddressException
-	
-	{
+	public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody) throws MessagingException, AddressException {
 		boolean debug = false;
 		Properties props = new Properties();
 		props.put("mail.smtp.starttls.enable", "true");
@@ -30,11 +26,9 @@ public class MonitoringMail
 		
 		  Authenticator auth = new SMTPAuthenticator();
 		    Session session = Session.getDefaultInstance(props, auth);
-
 		    session.setDebug(debug);
 		
-		try
-		{
+		try {
 			Transport bus = session.getTransport("smtp");
 			bus.connect();
             Message message = new MimeMessage(session);
@@ -66,23 +60,17 @@ public class MonitoringMail
              Transport.send(message);
              System.out.println("Sucessfully Sent mail to All Users");
          	 bus.close();
-    		
-		}
-		catch (MessagingException mex)
-		{
+		} catch (MessagingException mex) {
             mex.printStackTrace();
         }		
 	} 
 	
-	private class SMTPAuthenticator extends Authenticator
-	{
-
-	    public PasswordAuthentication getPasswordAuthentication()
-	    {
+	private class SMTPAuthenticator extends Authenticator {
+	    public PasswordAuthentication getPasswordAuthentication() {
 	        String username = TestConfig.from;
 	        String password = TestConfig.password;
+
 	        return new PasswordAuthentication(username, password);
 	    }
 	}
-	
 }
