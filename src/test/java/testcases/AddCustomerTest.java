@@ -13,6 +13,8 @@ public class AddCustomerTest extends BaseTest {
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "bankManagerDP")
     public void addCustomerTest(HashMap<String,String> data) {
+
+        // add comments
         ExcelReader excelReader = new ExcelReader(Constants.MANAGER_SUITE_EXCEL_PATH);
         DataUtil.checkExecution("BankManagerSuite", "AddCustomerTest", data.get("Runmode"), excelReader);
         browser = getBrowser(data.get("browser"));
