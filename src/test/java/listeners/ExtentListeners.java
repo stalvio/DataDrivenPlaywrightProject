@@ -21,6 +21,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import util.MonitoringMail;
+import util.TestConfig;
 
 public class ExtentListeners implements ITestListener, ISuiteListener {
 
@@ -103,25 +105,25 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	public void onFinish(ISuite suite) {
 
 
-//		MonitoringMail mail = new MonitoringMail();
-//
-//
-//		try {
-//			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-//					+ ":8080/job/PlaywrightProject/Extent_20Reports/";
-//		} catch (UnknownHostException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//
-//		try {
-//			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
-//		} catch (AddressException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} catch (MessagingException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		MonitoringMail mail = new MonitoringMail();
+
+
+		try {
+			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
+					+ ":8080/job/Playwright Project/Extent_20Reports/";
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		try {
+			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
+		} catch (AddressException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MessagingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
